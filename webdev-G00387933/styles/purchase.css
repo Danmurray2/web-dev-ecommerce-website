@@ -1,0 +1,38 @@
+/* The Purchase Modal
+/* Initial display set to none until modal triggered */
+/* This is the modal background */
+.purchase_modal { 
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stacks the modal on the front to ensure scrolling doesn't affect the view*/
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  left: 0; /*ensures correct modal background positioning */
+  top: 0;
+  width: 100%; /* Full width of page */
+  height: 100%; /* Full height */
+}
+/* Modal Content/Box adjustments - color, margin, border, and width*/
+.purchase_content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%; 
+}
+
+/* The Close Button - positions to the right, sets default colour and size*/
+.close_purchase {
+  color: rgb(8, 8, 8);
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+/* hover and focus actions for the 'x' button, cursor to pointer and change to red */
+.close_purchase:hover,
+.close_purchase:focus {
+  color: rgb(228, 12, 12);
+  text-decoration: none;
+  cursor: pointer;
+}
+

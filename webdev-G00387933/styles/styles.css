@@ -1,0 +1,89 @@
+/* General CSS for adjusting fonts, colors, positioning, & displays. */
+
+
+/* importing font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); 
+
+/* footer css styling */
+.footerEdit {
+    background-color: rgb(34, 135, 148)!important;
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(37, 163, 163, 0.753);
+}
+
+main {
+    margin-bottom: 80px !important;
+}
+
+/* To account for footer height */
+body {
+    margin-bottom: 50px;
+}
+
+/* sets font, size, and colour of the user greeting message */
+#welcome {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110%;
+    color: rgb(20, 187, 137);
+}
+/* all p elements changed to Montserrat and font size adjusted */
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130%;
+}
+/* all h5 elements font set, additional positioning for within modal */
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* h4 elements font style, and weight */
+h4 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700 !important;
+
+}
+/* default button colour and background colour */
+.btn {
+    background-color: rgb(34, 135, 148) !important;
+    color: whitesmoke !important;
+}
+/* Changes to colour on hover and border colour */
+.btn:hover {
+    background-color: rgb(62, 173, 190) !important;
+    border-color: rgb(9, 224, 196);
+}
+/* adjustmens to jumbotron container */
+.jumbotron {
+    margin-bottom: 0%;
+    background-color: rgb(232, 255, 245);
+}
+
+body.modal-open .modal .modal-dialog {
+    margin: auto;
+}
+/* clearCart button */
+#clearCart {
+    color: honeydew;
+    font-family: 'Montserrat', sans-serif;
+}
+/* change colour on hover for clear cart button */
+#clear_cart:hover {
+  background-color: rgb(194, 69, 69);
+}
+/* round edge on buttons */
+.btn-xs {
+    border-radius: 7px !important; 
+}
+/* purchase button default color and background */
+.p_btn {
+    color: honeydew;
+    background-color: seagreen !important;
+}

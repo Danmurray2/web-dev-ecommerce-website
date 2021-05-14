@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+/* main navbar settings */
+.navbar {
+    background-color: rgb(34, 135, 148) !important;
+    box-shadow: 0 4px 8px -5px rgb(34, 135, 148) ;
+    width: 100%;
+}
+
+/* hyperlinks withing navbar - positioning and size  */
+.navbar a {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0,0,0);
+}
+
+/* Different font for the navbar brand logo */
+.navbar-nav .navbar-brand {
+    font-family: 'New Tegomin', serif;
+}
